@@ -1,4 +1,4 @@
-# 🛒 E-commerce Backend - Geração Tech 3.0
+# E-commerce Backend - Geração Tech 3.0
 
 Este é o projeto Backend de conclusão do curso de Desenvolvedor Web Full Stack pelo **Geração Tech 3.0**. A aplicação consiste em uma API REST desenvolvida para gerenciar um sistema de E-commerce, abrangendo desde o cadastro de usuários até a gestão de produtos e autenticação segura.
 
