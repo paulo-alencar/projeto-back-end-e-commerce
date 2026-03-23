@@ -1,6 +1,6 @@
 # 🛒 E-commerce Backend - Geração Tech 3.0
 
-Este é o projeto de conclusão da trilha de Backend do curso **Geração Tech 3.0 (GTECH)**. A aplicação consiste em uma API REST desenvolvida para gerenciar um sistema de E-commerce, abrangendo desde o cadastro de usuários até a gestão de produtos e autenticação segura.
+Este é o projeto Backend de conclusão do curso de Desenvolvedor Web Full Stack pelo **Geração Tech 3.0**. A aplicação consiste em uma API REST desenvolvida para gerenciar um sistema de E-commerce, abrangendo desde o cadastro de usuários até a gestão de produtos e autenticação segura.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -132,8 +132,6 @@ O projeto segue a arquitetura Model-View-Controller (MVC), organizada da seguint
 - `PUT /v1/produto/:id` - Atualizar produto (autenticado)
 - `DELETE /v1/produto/:id` - Deletar produto (autenticado)
 
-## 🎓 Sobre o Autor
+---
 
-Este projeto foi desenvolvido por **Paulo Alencar** como parte do aprendizado no curso **Geração Tech 3.0**. O objetivo foi consolidar conhecimentos em desenvolvimento backend, arquitetura de software, segurança de APIs e integração com bancos de dados.
-
-Feito com ❤️ por Paulo Alencar
+### Desenvolvido por Paulo Alencar
