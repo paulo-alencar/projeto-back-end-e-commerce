@@ -4,8 +4,9 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "npm run dev",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand --forceExit"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +25,9 @@
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
+    "jest": "^30.3.0",
     "nodemon": "^3.1.14",
-    "sequelize-cli": "^6.6.5"
+    "sequelize-cli": "^6.6.5",
+    "supertest": "^7.2.2"
   }
 }

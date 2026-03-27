@@ -2,6 +2,10 @@ const request = require("supertest");
 const app = require("../src/app");
 const { sequelize } = require("../src/models/User");
 
+// AUMENTAR O TIMEOUT GLOBAL DO JEST PARA ESTE ARQUIVO
+// Definimos 30 segundos para dar tempo ao banco de dados respirar.
+jest.setTimeout(30000);
+
 // Este bloco é executado antes de todos os testes neste arquivo.
 // É perfeito para limpar o banco de dados e garantir que os testes comecem do zero.
 beforeAll(async () => {

@@ -89,7 +89,7 @@ O servidor estará disponível em:
 
 A documentação interativa permite testar os endpoints diretamente pelo navegador. Com o projeto rodando, acesse:
 
-👉 `http://localhost:3001/api-docs`
+`http://localhost:3001/api-docs`
 
 ## 🏗️ Estrutura de Pastas (MVC)
 

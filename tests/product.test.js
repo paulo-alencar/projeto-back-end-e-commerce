@@ -7,6 +7,10 @@ let token;
 let categoryId;
 let productId; // Vamos definir o productId no escopo principal
 
+// AUMENTAR O TIMEOUT GLOBAL DO JEST PARA ESTE ARQUIVO
+// Definimos 30 segundos para dar tempo ao banco de dados respirar.
+jest.setTimeout(30000);
+
 beforeAll(async () => {
   await sequelize.sync({ force: true });
 

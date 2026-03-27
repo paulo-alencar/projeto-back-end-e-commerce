@@ -4,6 +4,10 @@ const { sequelize } = require("../src/models/User"); // Podemos pegar o sequeliz
 
 let token;
 
+// AUMENTAR O TIMEOUT GLOBAL DO JEST PARA ESTE ARQUIVO
+// Definimos 30 segundos para dar tempo ao banco de dados respirar.
+jest.setTimeout(30000);
+
 // Bloco para limpar o banco e obter um token de autenticação antes dos testes de categoria
 beforeAll(async () => {
   await sequelize.sync({ force: true });
